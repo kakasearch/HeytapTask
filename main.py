@@ -253,7 +253,7 @@ def cashingCredits(info_marking,info_type,info_credits):
     'cookie': HT_cookies,
     'Origin': 'https://store.oppo.com',
     'X-Requested-With': 'com.oppo.store',
-    'referer':' https://store.oppo.com/cn/app/taskCenter/index?us=gerenzhongxin&um=hudongleyuan&uc=renwuzhongxin'
+    'referer':'https://store.oppo.com/cn/app/taskCenter/index?us=gerenzhongxin&um=hudongleyuan&uc=renwuzhongxin'
     }
 
     data = "marking=" + str(info_marking) + "&type=" + str(info_type) + "&amount=" + str(info_credits)
